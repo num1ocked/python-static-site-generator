@@ -9,5 +9,5 @@ class Content(Mapping):
 
     def load(cls, string):
         _, fm, content = cls.__regex.split(string, 2)
-        metadata =  load(fm, Loader=FullLoader)
+        metadata = load(fm, Loader=FullLoader)
         return cls(metadata, content)
