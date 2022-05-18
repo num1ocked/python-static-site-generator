@@ -34,3 +34,6 @@ class Content(Mapping):
 
     def __iter__(self):
         self.data__iter__()
+
+    def __len__(self):
+        return len(self.data)
