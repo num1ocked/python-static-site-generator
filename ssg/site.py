@@ -20,8 +20,3 @@ class Site:
         for parser in self.parsers:
             if parser.valid_extension(extension):
             return parser
-
-    def load_parser(self, extension):
-        for parser in self.parsers:
-            if parser.valid_extension(extension):
-            return parser
