@@ -1,4 +1,4 @@
-from typing import lost
+from typing import List
 from pathlib import Path
 
 class Parser:
